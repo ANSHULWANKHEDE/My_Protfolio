@@ -61,7 +61,7 @@ export default function App() {
 
             <div className="mt-6 flex gap-3">
               <a
-                href="/_Anshul R. Wankhede-Resume (3).pdf"
+                href="/anshul_wankhede_resume.pdf"
                 className="px-4 py-2 text-sm rounded-lg border border-gray-700 hover:bg-gray-800 transition"
                 download >
                  Download Resume
