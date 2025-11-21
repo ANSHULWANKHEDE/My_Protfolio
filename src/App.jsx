@@ -6,10 +6,10 @@ function sendEmail(e) {
 
   emailjs
     .sendForm(
-      "service_g9gxrpy",      // ✔ MUST be inside quotes
-      "template_7wncd3p",     // ✔ MUST be inside quotes
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       e.target,
-      "TAPZ29rDFt0KyyHlg"     // ✔ MUST be inside quotes
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY    // ✔ MUST be inside quotes
     )
     .then(
       () => {
